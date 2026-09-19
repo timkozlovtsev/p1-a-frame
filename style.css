@@ -1,0 +1,23 @@
+html,
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+#mv-container {
+    position: relative;
+    height: 90%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#aframe-container {
+    position: relative;
+    height: 90%;
+}
+
+model-viewer, a-scene {
+    height: 100%;
+    width: 100%;
+}
